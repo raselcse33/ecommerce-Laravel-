@@ -1,0 +1,13 @@
+/* Add here all your CSS customizations */
+ .site-btn-new { padding: .375rem .75rem; height: calc(2.25rem + 2px); }
+.result-box .table td, .result-box .table th { padding: 0;  }
+.result-box table.no-table-border td, .result-box table.no-table-border th { border: none; }
+.result-box table.little-padding td, .result-box table.little-padding th { padding: 5px 10px; }
+/*.result-box table.tnb td, .result-box table.tnb th { border: none; text-align: center; padding: 0 0px; }*/
+.result-box table.tnb { margin-bottom: 0; font-style: normal; }
+.result-box table.tnb th{ border-bottom: none; text-align: center; }
+.result-box table.tnb th:first-child { border-left: none; }
+.result-box table.tnb th:last-child { border-right: none; }
+.result-box table.tnbn th { border-top: none;  border-bottom: none; }
+.pdf-box-content { padding: 20px; background: #ddd; }
+.pdf-box-main-content { background: #fff; padding: 10px; }

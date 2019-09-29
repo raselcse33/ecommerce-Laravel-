@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(236, 236, 236)
+}
+.navbar{
+    padding: 0 20px !important;
+    font-size: 12px;
+    box-shadow: 0 !important;
+}
+
+#menubar{
+    background-color: rgb(226, 241, 255) !important;
+}
+
+#menubar a{
+    color: black !important;
+}
+
+.add-to-cart-btn{
+    background-image: linear-gradient(to right, rgb(6, 180, 35), rgb(3, 143, 143));
+    padding: 5px;
+    margin: 5px 0;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+
+.product-name{
+    cursor: pointer !important;
+}
+
+.shopping-cart-plus-minus-button{
+    color: rgb(122, 120, 120) !important;
+    cursor: pointer;
+}
+
+.shopping-cart-plus-minus-button:hover{
+    color: rgb(6, 87, 30) !important;
+    cursor: pointer;
+}
+.product-container{
+    height: 350px;
+}
+
+.product-container img{
+    height: 190px;    
+}
+
+.product-container .product-name{
+    height: 65px;
+    overflow: hidden;
+}
+
+.product-container .product-price{
+    height: 20;
+    color: darkgreen;
+}
+
+.product-container .add-to-cart-btn{
+    height: 32;
+}
